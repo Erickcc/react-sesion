@@ -1,0 +1,49 @@
+.ownerCard {
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 1rem;
+}
+
+.ownerCard > img {
+	max-width: 100%;
+	max-height: 40rem;
+	object-fit: cover;
+}
+
+.ownerCard p {
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+.ownerCard a {
+	color: black;
+}
+
+.ownerCard h2 {
+	font-size: 3rem;
+}
+
+.ownerCard ul {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	gap: 0 4rem;
+}
+
+.ownerCard li {
+	max-width: 20rem;
+	height: 40rem;
+}
+
+.ownerCard li > img {
+	width: 20rem;
+	height: 28rem;
+}
+
+.ownerCard div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
